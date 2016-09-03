@@ -1,0 +1,23 @@
+{
+  "name": "SE2016-gemini",
+  "version": "1.0.0",
+  "description": "Gemini demo for SE2016",
+  "main": "index.js",
+  "dependencies": {
+    "gemini": "^4.9.0",
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gemini test",
+    "start": "http-server -p 8000 -s -c \"no-cache, no-store\" & echo $! > pidfile.pid",
+    "stop": "kill -2 $(cat pidfile.pid) && rm pidfile.pid"
+
+  },
+  "keywords": [
+    "demo",
+    "SE2016",
+    "gemini"
+  ],
+  "license": "Public Domain"
+}
