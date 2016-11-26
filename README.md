@@ -1,5 +1,11 @@
 # Демо gemini
 
+## Презентация
+
+[https://yadi.sk/i/zd-w1hwNzXqJH](https://yadi.sk/i/zd-w1hwNzXqJH)
+
+![screen.png](screen.png)
+
 ## Установка
 
 1. Установите зависимости 

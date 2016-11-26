@@ -1,11 +1,14 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
 }
+
 button {
     font-size: 15px;
     line-height: 31px;
 
     position: relative;
+
+    cursor: pointer;
 
     border: 0;
     outline: 0;
@@ -23,4 +26,8 @@ button:active {
     color: #39afff;
     border-color: rgba(0, 0, 0, .5);
     background-color: #f6f5f3;
+}
+
+h1 {
+    margin: 0;
 }
