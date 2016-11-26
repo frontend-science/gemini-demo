@@ -3,3 +3,8 @@ browsers:
   PhantomJS:
     desiredCapabilities:
       browserName: phantomjs
+system:
+  projectRoot: .
+  diffColor: '#ff0000'
+  coverage:
+    enabled: true

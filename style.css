@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+button {
+    font-size: 15px;
+    line-height: 31px;
+
+    position: relative;
+
+    border: 0;
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+}
+
+button:hover {
+    color: rgb(255, 255, 250);
+    border-color: rgba(55, 0, 0, .5);
+    background-color: #39afff;
+}
+
+button:active {
+    color: #39afff;
+    border-color: rgba(0, 0, 0, .5);
+    background-color: #f6f5f3;
+}
