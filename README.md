@@ -22,8 +22,8 @@
 2. Склонируйте этот репозиторий и перейдите в его папку:
 
    ```
-   git clone git@github.com:frontend-science/gemini-se2016.git
-   cd gemini-se2016
+   git clone git@github.com:frontend-science/gemini-wsd2016.git
+   cd gemini-wsd2016
    ```
 
 3. Установите npm-зависимости:
