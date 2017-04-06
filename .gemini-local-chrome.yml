@@ -1,0 +1,12 @@
+rootUrl: http://localhost:8000
+gridUrl: http://localhost:9515
+
+browsers:
+  chrome:
+    desiredCapabilities:
+      browserName: chrome
+system:
+  projectRoot: .
+  diffColor: '#ff0000'
+  coverage:
+    enabled: true
