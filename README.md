@@ -8,17 +8,17 @@
 
 ## Установка
 
-1. Установите зависимости 
+1. Установите зависимости
 
     1) WebDriver server implementation. There are few possible options:
-    
+
     * [Selenium Server](http://docs.seleniumhq.org/download/) – for testing in different browsers.
     * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) - for testing in Google Chrome.
     * [PhantomJS](http://phantomjs.org/) — launch with phantomjs --webdriver=4444 command.
     * Cloud WebDriver services, such as [SauceLabs](http://saucelabs.com/) or [BrowserStack](http://www.browserstack.com/)
-    
+
     2) Compiler with support of C++11 (GCC@4.6 or higher). This is a [png-img](https://github.com/gemini-testing/png-img) requirement.
-    
+
 2. Склонируйте этот репозиторий и перейдите в его папку:
 
    ```
@@ -27,7 +27,7 @@
    ```
 
 3. Установите npm-зависимости:
-   
+
    ```
    npm install
    ```

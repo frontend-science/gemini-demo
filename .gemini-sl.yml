@@ -1,23 +1,13 @@
-rootUrl: http://localhost:8000
-gridUrl: http://ondemand.saucelabs.com/wd/hub
-
-system:
-  projectRoot: '.'
+rootUrl: http://application:8000
+gridUrl: http://localhost:4444/wd/hub
 
 browsers:
-  firefox-35-win7-1600-1200:
+  chrome-1600-1200:
     desiredCapabilities:
-      screenResolution: 1600x1200
-      maxDuration: 10800
-      browserName: firefox
-      platform: Windows 7
-      version: '35'
-      strictComparison: true
-  ie-10-win7-1600-1200:
-    desiredCapabilities:
-      screenResolution: 1600x1200
-      maxDuration: 10800
-      browserName: internet explorer
-      platform: Windows 7
-      version: '10.0'
-      strictComparison: true
+      browserName: chrome
+
+system:
+  projectRoot: .
+  diffColor: '#ff0000'
+  coverage:
+    enabled: true

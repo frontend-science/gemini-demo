@@ -1,10 +1,10 @@
-rootUrl: http://localhost:8000
+rootUrl: http://application:8000
 gridUrl: http://localhost:4444/wd/hub
 
 browsers:
-  PhantomJS:
+  chrome:
     desiredCapabilities:
-      browserName: phantomjs
+      browserName: chrome
 system:
   projectRoot: .
   diffColor: '#ff0000'

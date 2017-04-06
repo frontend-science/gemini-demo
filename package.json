@@ -1,10 +1,10 @@
 {
-  "name": "SE2016-gemini",
+  "name": "gemini-demo",
   "version": "1.0.0",
-  "description": "Gemini demo for SE2016",
+  "description": "Gemini demo",
   "main": "index.js",
   "dependencies": {
-    "gemini": "4.13.0",
+    "gemini": "4.18.1",
     "gemini-coverage": "1.0.3",
     "http-server": "^0.9.0"
   },
