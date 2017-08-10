@@ -1,4 +1,3 @@
-// var gemini = require('gemini');
 
 gemini.suite('button', function(suite) {
     suite.setUrl('/index.html')
